@@ -14,8 +14,23 @@
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand coca-brand" href="#">
-                <img class="coca-brand" alt="Brand" src="images/coca_logo.png">
+            <a class="navbar-brand coca-brand" href="#" onmouseenter="randomQuote()">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');" >
+                    <div class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <img src="images/coca_logo.png"  class="coca-brand"/>
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
+                            <img src="images/coca_logo_back.png"  class="coca-brand"/>
+                            <span class="flip-text">
+                                <div id="firstword"></div>
+                                <div id="secondword"></div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </a>
         </div>
         <div class="navbar-collapse coca-font">
@@ -30,6 +45,7 @@
         </div>
     </div>
 </nav>
+
 
 <!-- body content -->
 <div class="container">
@@ -53,14 +69,14 @@
                         <p>vmType</p>
                     </div>
                     <div class="col-md-10">
-                        <div class="dropdown">
-                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select type
-                                <span class="caret"></span>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                <span data-bind="label">Select One</span>&nbsp;<span class="caret"></span>
                             </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">HTML</a></li>
-                                <li><a href="#">CSS</a></li>
-                                <li><a href="#">JavaScript</a></li>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Item 1</a></li>
+                                <li><a href="#">Another item</a></li>
+                                <li><a href="#">This is a longer item that will not fit properly</a></li>
                             </ul>
                         </div>
                     </div>
@@ -254,6 +270,7 @@
 <!-- Scripts -->
 <script src="javascripts/jquery.min.js"></script>
 <script src="javascripts/bootstrap.min.js"></script>
+<script src="javascripts/custom.js"></script>
 
 </body>
 </html>

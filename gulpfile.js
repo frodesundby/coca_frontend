@@ -6,7 +6,7 @@ var size = require('gulp-size')
 
 var paths = {
   htmlSource: ['./src/index.html', './src/build.html'],
-  cssSource: ['./src/stylesheets/**/*.css', 'node_modules/font-awesome/css/font-awesome.min.css', 'node_modules/bootstrap/dist/css/bootstrap.min.css'],
+  cssSource: ['./src/stylesheets/**/*.css', 'node_modules/font-awesome/css/font-awesome.min.css', 'node_modules/bootstrap/dist/css/bootstrap.min.css','node_modules/bootstrap/dist/css/bootstrap.min.css.map'],
   jsSource: ['./src/js/**/*.js', 'node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/jquery/dist/jquery.min.js'],
   imgSource: './src/images/**/*.*',
   fontSource: ['./src/fonts/**/*', './node_modules/font-awesome/fonts/**/*'],
