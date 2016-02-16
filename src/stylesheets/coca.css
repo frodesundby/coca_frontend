@@ -17,7 +17,7 @@
     border-radius: 10px;
     font-weight: 500;
     letter-spacing: 1px;
-    background: #e61e2b;
+    background: linear-gradient(to right, #ff1122, #ff1e2d, #ff1e2d);
     color: #ffffff;
 }
 
@@ -28,18 +28,19 @@
 }
 
 .btn-coca:hover, .btn-coca:focus, .btn-coca:active, .btn-coca.active, .open > .dropdown-toggle.btn-coca {
-    background: #ff1e2d;
+    background: linear-gradient(to right, #fff, #ff1e2d);
+
 }
 
 .btn-coca:active, .btn-coca.active {
-    background: #7c0006;
+    background: linear-gradient(to right, #fff, #ff1e2d);
     box-shadow: none;
 }
 .btn-coca.raised {
     box-shadow: 0 3px 0 0 #7c0006;
 }
 .btn-coca.raised:active, .btn-coca.raised.active {
-    background: #ff1e2d;
+    background: linear-gradient(to right, #fff, #ff1e2d, #ff1e2d);
     box-shadow: none;
     margin-bottom: -3px;
     margin-top: 3px;
