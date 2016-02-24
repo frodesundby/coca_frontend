@@ -28,4 +28,8 @@ dist
 build
 public
 
-frontend/src
+frontend/build
+
+.DS_Store
+frontend/src/.DS_Store
+frontend/src/fonts/.DS_Store

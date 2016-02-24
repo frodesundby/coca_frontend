@@ -1,0 +1,105 @@
+.coca-brand {
+    width: 70px;
+}
+.coca-font {
+    height: 45px;
+    padding-top: 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;
+    display: block;
+}
+/* Coca button */
+
+.btn-coca {
+    padding: 7px 30px;
+    border: 0 none;
+    border-radius: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #ff1122, #ff1e2d, #ff1e2d);
+    color: #ffffff;
+}
+
+
+
+.btn-coca:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-coca:hover, .btn-coca:focus, .btn-coca:active, .btn-coca.active, .open > .dropdown-toggle.btn-coca {
+    background: linear-gradient(to right, #fff, #ff1e2d);
+
+}
+
+.btn-coca:active, .btn-coca.active {
+    background: linear-gradient(to right, #fff, #ff1e2d);
+    box-shadow: none;
+}
+.btn-coca.raised {
+    box-shadow: 0 3px 0 0 #7c0006;
+}
+.btn-coca.raised:active, .btn-coca.raised.active {
+    background: linear-gradient(to right, #fff, #ff1e2d, #ff1e2d);
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+body {
+    padding-top: 150px;
+    background-color: #dadada !important;
+
+}
+
+.navbar-nav > li > a {
+    border-bottom: 3px solid;
+    border-bottom-color: #2b2b2b;
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li > a.active, .nav>li>a:focus {
+    background-color: #dadada;
+    color: #fff;
+    border-bottom-color: #2b2b2b;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    border-bottom-color: #d30006;
+    background-color: #2b2b2b !important;
+}
+
+.navbar-nav > li > a:hover {
+    background-color: #2b2b2b;
+    border-bottom-color: #d30006 !important;
+}
+
+.navbar-nav > li > a.active:hover {
+    background-color: #2b2b2b;
+}
+
+.sidebar {
+    background-color: #2b2b2b;
+}
+.btn{
+    width: 100%;
+    text-align: left;
+}
+.dropdown-menu{
+    width: 100%;
+}
+.hr-style {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.flip-text {
+    position: absolute;
+    text-align: center;
+    top: 27%;
+    width: 100%;
+    height: 100%;
+    color: #67138c;
+    font-family: "Courier new";
+    font-size: 12px;
+}
